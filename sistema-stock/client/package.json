@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://desktop-1d8i8tp/sistema-stock/",
+  "homepage": "http://sistema-stock/",
   "type": "module",
   "scripts": {
     "start": "vite",
