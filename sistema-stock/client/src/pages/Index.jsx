@@ -6,7 +6,7 @@ import FormTabs from './TabsFormularios';
 
 export default function RoutesMain() {
   // const rutaServidor = ''; //*Pruebas
-  const rutaServidor = 'https://kalu661.github.io/sistema-stock/'; //* Produccion
+  const rutaServidor = '/sistema-stock/'; //* Produccion
   return (
     <div className="container mt-5">
       <Routes>
