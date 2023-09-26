@@ -5,8 +5,8 @@ import '../pages/Login';
 
 // eslint-disable-next-line react/prop-types
 export default function NavInicio({ isLoggedIn }) {
-  const rutaServidor = ''; //*Pruebas
-  // const rutaServidor = '/sistema-stock'; //* Produccion
+  // const rutaServidor = ''; //*Pruebas
+  const rutaServidor = 'https://kalu661.github.io/sistema-stock/'; //* Produccion
   return (
     <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container>
