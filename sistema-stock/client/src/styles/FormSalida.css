@@ -1,0 +1,63 @@
+/* styles.css (o cualquier otro nombre que prefieras) */
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  /* Estilos para los botones */
+  .btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  /* Estilos para los checkboxes */
+  .form-check {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para los inputs */
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para la lista de productos */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  

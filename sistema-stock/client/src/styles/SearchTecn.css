@@ -1,0 +1,73 @@
+/* Search.css */
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para el formulario de búsqueda */
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para la lista de nombres */
+  ul {
+    list-style-type: none;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Estilo para los elementos de la lista */
+  li {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para el formulario */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .name_select {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  } 
